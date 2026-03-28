@@ -1,26 +1,43 @@
-# Library Management System
+# Library Management System 📚
 
-A menu-driven library management system built using Python and Object Oriented Programming (OOP).
+A Python-based Library Management System built using Object-Oriented Programming (OOP). This system allows managing books with features like adding, issuing, and returning books.
 
-## Features
-- Add books with auto-generated Book ID
+---
+
+## 🚀 Features
+
+- Add new books with auto-generated Book ID
 - View all books
-- Issue book using title (supports multiple matches)
-- Return book using Book ID
-- Status tracking (Available / Issued)
+- Issue books (by title + select ID)
+- Return books using Book ID
 - Input validation and error handling
+- Book availability tracking
 
-## Concepts Used
+---
+
+## 🆕 New Feature (Update)
+
+- Data persistence using JSON file
+- Books are saved in `books.json`
+- Data is automatically loaded when the program starts
+- No data loss after closing the program
+
+---
+
+## 🧠 Concepts Used
+
 - Classes and Objects (OOP)
-- Class variables (auto ID generation)
+- Class variables
 - Lists
 - Loops and conditionals
 - Exception handling
+- File handling (JSON)
 
-## How to Run
-1. Run the Python file
-2. Choose options from the menu
-3. Add, view, issue, or return books
+---
 
-## Example Output
-Book ID: 101, Title: Python Basics, Author: John Doe, Status: Available
+## ▶️ How to Run
+
+1. Make sure Python is installed
+2. Run the Python file:
+   ```bash
+   python library_management.py
